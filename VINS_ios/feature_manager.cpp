@@ -311,6 +311,7 @@ VectorXd FeatureManager::getDepthVector()
     return dep_vec;
 }
 
+//get the number of featurepoints that meet the reauirement in the sliding window
 int FeatureManager::getFeatureCount()
 {
     int sum = 0;
